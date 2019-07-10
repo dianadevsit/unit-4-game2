@@ -1,0 +1,11 @@
+body {
+    color: silver !important;
+    background-color: black;
+    background-image: url("../images/castleimage.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-size: 1.1em !important;
+    font-family: 'Nunito', sans-serif !important;
+}
