@@ -9,3 +9,10 @@ body {
     font-size: 1.1em !important;
     font-family: 'Nunito', sans-serif !important;
 }
+h1 {
+    color: #2d1235;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
