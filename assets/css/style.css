@@ -16,3 +16,8 @@ h1 {
     margin-right: auto;
     margin-left: auto;
 }
+
+.img-fluid { 
+    min-height: 100px;
+    border: #2d1235;
+}

@@ -10,11 +10,11 @@
 
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     </head>
     <body>
-        <script src="assets/javascript/game.js">
-        alert("Save the Princess from the Dragon. Choose your warrier and fight against the dragons!");   
-        </script>
+        <script src="assets/javascript/game.js"></script>
   
      <!-- the select player character screen -->
      <div id="firstScreen" class="container-fluid animated zoomIn bounceOut">
@@ -25,6 +25,16 @@
         <br>
         <div id="game" class="ctr container card-deck">
         </div>
+    </div>
+    <!-- main screen -->
+    <div id="secondScreen" class="bg-trans container-fluid animated slideInDown">
+        <div class="row">
+            <div class="col-12" ctr>
+                Remaining Dragons:
+                <div id="warriorLeftDiv"></div>
+            </div>
+        </div>
+        
     </div>
     </body>
 </html>
