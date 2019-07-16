@@ -14,7 +14,12 @@
         crossorigin="anonymous">
     </head>
     <body>
-        <script src="assets/javascript/game.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous ">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous ">
+        <script src="./assets/javascript/game.js "></script>
   
      <!-- the select player character screen -->
      <div id="firstScreen" class="container-fluid animated zoomIn bounceOut">
@@ -34,7 +39,42 @@
                 <div id="warriorLeftDiv"></div>
             </div>
         </div>
-        
+        <div class="row text-center paddingTop">
+            <div class="col-5">
+                Warrior:
+                <div class="container" style="width: 30%;">
+                    <div id="warriorDiv"></div>
+                    <div id="warriorHealthDiv"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-5">
+            Enemy:
+            <div class="container">
+                <div id="dragonDiv"></div>
+                <div id="dragonHealthDiv"></div>
+            </div>
+        </div>
+    </div>
+    <!-- holds the button -->
+    <div class="row">
+        <div class="col-12 btn">
+            <div id="msg"></div>
+            <br>
+            <button type="button" name="attack" id="attackBtn" class="btn btn-dark btn-lg">ATTACK!</button>
+        </div>
+    </div>
+</div>
+<!-- Winnings -->
+<div class="container-fluid ">
+    <div id="globalMsg" class="animated fadeInUp">
+        <p class="shadow">
+            CONGRATULATIONS!
+            <br> You saved the Princess!
+        </p>
+    </div>
+</div>
+
     </div>
     </body>
 </html>

@@ -34,3 +34,16 @@ function initCharacters () {
     var warrior3 = new Charater ("Warrior 3", 150, 30, 12, "./assests/images/warrior3.jpg");
 }
 //init function is called a constructor function, and we can invoke it by using the special Javascript keyword new .
+
+//saving the original attack
+function setBaseAttack(Obj) {
+    baseAttack = Obj.attackPower;
+}
+
+//using if else loop to work with character being alive. If the HP is greater than 0, then warrior stays alive. 
+function isAlive(Obj) {
+    if (Obj.healthPoints > 0) {
+        return true;
+    
+    } else return false;
+}
